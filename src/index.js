@@ -2,16 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-
+//React.createElement("h1",{style:{color:"blue"}},"hello world!!!")
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App/>,
   document.getElementById('root')
 );
+/* import App function from file and put it in tag <App/> */
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+/* ReactDOM.render(Element , whenPutElement );
+to create element React.createElement("tag",{style,classname ..}, "enter the tag");
+
+*/
